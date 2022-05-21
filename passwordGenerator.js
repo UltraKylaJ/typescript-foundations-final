@@ -6,10 +6,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.passwordGenerator = void 0;
 const randomstring_1 = __importDefault(require("randomstring"));
 function passwordGenerator() {
-    randomstring_1.default.generate({
+    let password = randomstring_1.default.generate({
         length: 15,
         charset: 'alphanumeric'
     });
+    return password;
 }
 exports.passwordGenerator = passwordGenerator;
 //# sourceMappingURL=passwordGenerator.js.map

@@ -2,7 +2,7 @@ import randomstring from 'randomstring';
 import { passwordGenerator } from './passwordGenerator';
 import { generateDate } from './dateMaker';
 
-class User {
+export class User {
     userId: string;
     username: string;
     password: string;
