@@ -11,16 +11,8 @@ let betty = new user_1.User("", "Betty Brown", "", "");
 users.push(betty);
 let katie = new user_1.User("", "Katie Ray", "", "");
 users.push(katie);
-// bob.prettyPrint();
-// jon.prettyPrint();
-// betty.prettyPrint();
-// katie.prettyPrint();
 users.forEach((usr) => {
     usr.prettyPrint();
 });
-// In the index.ts file, import the class and generate four new users. 
-//      You can give them any names.
-// Add each of the users to an array when they are created.
-// Print all the user information using the prettyPrint function by using the forEach loop on the array.
 // Write tests to verify that the methods and classes within your program behave as expected.
 //# sourceMappingURL=index.js.map

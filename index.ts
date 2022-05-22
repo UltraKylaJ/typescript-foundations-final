@@ -18,8 +18,5 @@ users.forEach((usr) => {
 });
 
 
-// In the index.ts file, import the class and generate four new users. 
-//      You can give them any names.
-// Add each of the users to an array when they are created.
-// Print all the user information using the prettyPrint function by using the forEach loop on the array.
+
 // Write tests to verify that the methods and classes within your program behave as expected.
