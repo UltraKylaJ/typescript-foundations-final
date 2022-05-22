@@ -22,6 +22,4 @@ class User {
     }
 }
 exports.User = User;
-// Add a method called prettyPrint which prints the user information in separate lines of the console.
-// Export the class as default
 //# sourceMappingURL=user.js.map

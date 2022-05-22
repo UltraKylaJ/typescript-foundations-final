@@ -22,6 +22,3 @@ export class User {
         console.log(`ID: ${this.userId}\nUsername: ${this.username}\nPassword: ${this.password}\nCreated On: ${this.createdDate}`)
     }
 }
-
-// Add a method called prettyPrint which prints the user information in separate lines of the console.
-// Export the class as default

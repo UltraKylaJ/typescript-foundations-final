@@ -11,10 +11,12 @@ let betty = new user_1.User("", "Betty Brown", "", "");
 users.push(betty);
 let katie = new user_1.User("", "Katie Ray", "", "");
 users.push(katie);
-users.forEach(usr => {
-    for (let usr = 0; usr < users.length; usr++) {
-        user_1.User.prettyPrint();
-    }
+// bob.prettyPrint();
+// jon.prettyPrint();
+// betty.prettyPrint();
+// katie.prettyPrint();
+users.forEach((usr) => {
+    usr.prettyPrint();
 });
 // In the index.ts file, import the class and generate four new users. 
 //      You can give them any names.

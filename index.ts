@@ -2,7 +2,7 @@
 
 import { User } from "./user";
 
-let users = []
+let users = [];
 
 let bob = new User("", "Bobby Blue", "", "");
 users.push(bob);
@@ -13,10 +13,8 @@ users.push(betty);
 let katie = new User("", "Katie Ray", "", "");
 users.push(katie);
 
-users.forEach(usr => {
-    for (let usr = 0; usr < users.length; usr++) {
-        User.prettyPrint();
-    }
+users.forEach((usr) => {
+    usr.prettyPrint();
 });
 
 
