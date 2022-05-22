@@ -16,7 +16,3 @@ users.push(katie);
 users.forEach((usr) => {
     usr.prettyPrint();
 });
-
-
-
-// Write tests to verify that the methods and classes within your program behave as expected.
